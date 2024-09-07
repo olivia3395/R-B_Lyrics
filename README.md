@@ -1,6 +1,5 @@
 # Why I Love R&B Lyrics: R&B Lyrics Analysis
 
-
 This project explores **R&B lyrics** through various natural language processing (NLP) techniques to uncover the emotional depth, narrative structures, and language usage that make this genre stand out. The analysis includes **sentiment analysis**, **topic modeling**, and **network visualizations**. For comparison, we also examine the lyrics of **Metal music** to highlight the unique characteristics of R&B lyrics.
 
 ## Table of Contents
