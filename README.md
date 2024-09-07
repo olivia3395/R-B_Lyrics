@@ -14,12 +14,7 @@ This project explores **R&B lyrics** through various natural language processing
   - [4. Pronoun Usage](#4-pronoun-usage)
   - [5. Word Network Analysis](#5-word-network-analysis)
 - [Comparison with Metal Lyrics](#comparison-with-metal-lyrics)
-- [Visualizations](#visualizations)
-- [How to Run](#how-to-run)
 - [Results](#results)
-- [Requirements](#requirements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The goal of this project is to examine why **R&B lyrics** resonate emotionally with listeners. By analyzing common themes, emotional expressions, language usage, and narrative structures, we can gain insights into what makes R&B lyrics unique and powerful. The project also includes a comparative analysis with **Metal** lyrics to highlight the differences in emotional tone and linguistic structure.
@@ -104,7 +99,7 @@ Compared to R&B, Metal lyrics are dominated by words like **"war"**, **"kill"**,
 
 Finally, we used **Degree Centrality** and **Eigenvector Centrality** to identify the most influential words in R&B lyrics. Below is a filtered word network showing the most central words.
 
-![fig9.png)
+![Degree & Eigenvector Centrality][fig9.png)
 
 Words like **"baby"**, **"love"**, and **"know"** are not only frequently used but also connect to many other key terms, underscoring their centrality in the emotional expression of R&B.
 
