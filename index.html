@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why I Love R&B Lyrics - Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2C3E50;
+        }
+        h1 {
+            text-align: center;
+        }
+        .centered {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            margin: 20px 0;
+        }
+        .highlight {
+            color: #E74C3C;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Why I Love R&B Lyrics</h1>
+
+<p>When exploring <em>why I love R&B lyrics</em>, I can break it down into several key aspects: emotional expression, language features, themes, and narrative structure. By analyzing these dimensions, I can uncover what makes R&B lyrics so appealing to me. In this report, I'll walk through each of these, starting with a fundamental question:</p>
+
+<h2>What Is R&B Music About?</h2>
+
+<p>R&B music has always been about <span class="highlight">emotion</span>. It’s a genre that speaks directly to the heart, weaving together feelings of <em>love, desire, heartbreak, joy</em>, and everything in between. The lyrics tend to be deeply personal and often explore relationships, love, and personal growth.</p>
+
+<p>One way to get a high-level overview of the lyrical content is to look at word frequencies. By analyzing the most common words used in R&B songs, we can begin to understand the key themes that artists are singing about.</p>
+
+<h3>Word Cloud: Visualizing R&B's Most Common Words</h3>
+
+<p>A word cloud is an excellent way to represent the frequency of words used in R&B lyrics. Larger words appear more frequently, and in R&B, it’s no surprise that words like <strong>"love," "baby,"</strong> and <strong>"know"</strong> dominate the landscape. Let’s take a look at the word cloud I generated below:</p>
+
+<div class="centered">
+    <img src="fig1.png" alt="Word Cloud of R&B Lyrics">
+</div>
+
+<p>The word cloud, shaped like a guitar (how cool is that?!), captures the essence of R&B lyrics. Words like <strong>"love"</strong>, <strong>"baby"</strong>, and <strong>"know"</strong> are front and center, reflecting R&B's deep connection to themes of love and emotional expression. These core words serve as the backbone of the genre, as they appear in song after song, expressing a range of human experiences from passion to heartache.</p>
+
+<h3>LDA Topic Modeling: Finding Themes in R&B Lyrics</h3>
+
+<p>But there's more to R&B than just a few common words. The genre dives into different themes, and a fantastic way to uncover these hidden topics is through <strong>Latent Dirichlet Allocation (LDA)</strong>. LDA is a topic modeling technique that helps us discover clusters of words that often appear together, giving us insights into the underlying themes of the lyrics.</p>
+
+<p>I used LDA to identify three key topics in the R&B lyrics, and the results are fascinating. Here are the most frequent words associated with each of the topics:</p>
+
+<div class="centered">
+    <img src="fig2.png" alt="LDA Topic Modeling for R&B Lyrics">
+</div>
+
+<p>Each bar chart represents a topic:</p>
+
+<ul>
+    <li><strong>Topic 1</strong>: It’s no surprise that words like <strong>"love"</strong>, <strong>"baby"</strong>, and <strong>"know"</strong> dominate this topic. These words center around relationships, affection, and emotional connection. This theme encapsulates the core of what makes R&B such an emotionally rich genre.</li>
+    <li><strong>Topic 2</strong>: Here, we see more casual, conversational words like <strong>"got"</strong>, <strong>"like"</strong>, and <strong>"man"</strong>. This topic might reflect lyrics focused on day-to-day life, challenges, and personal experiences, but in a less emotionally intense context.</li>
+    <li><strong>Topic 3</strong>: Words like <strong>"come"</strong>, <strong>"night"</strong>, and <strong>"home"</strong> suggest a theme of longing or reflection, maybe contemplating time, space, or memories. These lyrics feel more introspective and personal, focusing on existential or reflective moments in the artist's life.</li>
+</ul>
+
+<p>This LDA analysis reveals that while love is undoubtedly a central theme in R&B, other important topics such as personal struggles, relationships, and introspective moments also play significant roles. The mix of everyday language with profound emotional expressions is what gives R&B its relatable yet deeply moving quality.</p>
+
+<h2>What Emotions Does R&B Music Express?</h2>
+
+<p>One of the most fascinating aspects of R&B music is the breadth of emotions it covers. Through <strong>sentiment analysis</strong>, we can capture the emotional tone of the lyrics and understand how artists use words to express joy, sadness, love, or even anger.</p>
+
+<h3>Emotional Radar Chart: Capturing the Emotional Spectrum</h3>
+
+<p>To better understand the emotional depth of R&B lyrics, I created an <strong>emotional radar chart</strong> that categorizes the lyrics into various emotions such as <strong>joy, sadness, anger, trust</strong>, and more. Here's what the radar chart looks like for R&B lyrics:</p>
+
+<div class="centered">
+    <img src="fig3.png" alt="Emotional Radar Chart of R&B">
+</div>
+
+<p>This chart reveals that <span class="highlight">positive emotions</span> such as <strong>joy</strong>, <strong>trust</strong>, and <strong>anticipation</strong> are strongly represented in R&B music. These emotions often reflect the themes of love and relationships. At the same time, we see traces of <strong>sadness</strong> and <strong>disgust</strong>, possibly tied to heartbreak or betrayal—another common topic in the genre.</p>
+
+<p>R&B’s emotional spectrum is rich, with peaks in both positive and negative emotions. This balance between joy and sadness creates a dynamic emotional experience, which is likely why we feel so connected to the music—it reflects the highs and lows of our own lives.</p>
+
+<h3>Comparison: R&B vs. Metal Emotion</h3>
+
+<p>To highlight how unique R&B's emotional range is, I compared it with Metal music, known for its darker, more aggressive tone. Here's a side-by-side radar chart of R&B and Metal:</p>
+
+<div class="centered">
+    <img src="fig4.png" alt="Normalized Emotional Radar Chart of R&B vs Metal">
+</div>
+
+<p>As you can see, R&B has a higher concentration of <strong>positive</strong> emotions such as <strong>joy</strong> and <strong>trust</strong>, while Metal leans heavily towards emotions like <strong>anger</strong>, <strong>disgust</strong>, and <strong>fear</strong>. The difference in emotional expression helps explain why R&B feels so uplifting and personal, while Metal feels more intense and confrontational.</p>
+
+<p>In the next section, I'll explore how R&B lyrics handle pronoun usage and how this adds to the intimate, personal nature of the genre.</p>
+
+
+<h2>How Pronoun Usage Makes R&B Personal and Intimate</h2>
+
+<p>One key aspect that sets R&B apart from other genres is the way it uses pronouns to create a direct, personal connection with the listener. Pronouns like <strong>"I," "you," "we"</strong>, and <strong>"me"</strong> are central to this genre’s lyrical structure, making the songs feel like conversations between the artist and the listener. This use of personal pronouns helps to create a sense of intimacy, as though the singer is speaking directly to us.</p>
+
+<h3>Pronoun Usage Breakdown: First-Person vs. Second-Person</h3>
+
+<p>In my analysis, I focused on two types of pronouns in R&B lyrics:</p>
+
+<ul>
+    <li><strong>First-person pronouns</strong> (e.g., "I," "me," "we"): These help convey personal feelings and experiences, giving us insight into the singer’s thoughts and emotions.</li>
+    <li><strong>Second-person pronouns</strong> (e.g., "you," "your"): These make the lyrics feel conversational, almost as if the artist is singing directly to the listener, which enhances the emotional impact.</li>
+</ul>
+
+<p>To visualize the breakdown of first- and second-person pronoun usage in R&B, I created a scatterplot comparing the frequency of these pronouns. Here's what the data looks like:</p>
+
+<p>When we compare R&B with Metal music, the difference in pronoun usage is stark. Here’s a comparison scatterplot:</p>
+
+<div class="centered">
+    <img src="fig6_part1.png" alt="First vs. Second Person Pronoun Usage: R&B vs Metal">
+</div>
+
+<p>R&B clearly uses a much higher frequency of both first-person and second-person pronouns compared to Metal. While Metal tends to focus more on abstract or external subjects (e.g., society, war, etc.), R&B lyrics are much more introspective and relational. This is a key factor that makes R&B feel so <span class="highlight">personal</span> and <span class="highlight">intimate</span>.</p>
+
+<h3>Word Length and Sentence Length: Another Layer of Intimacy</h3>
+
+<p>Another interesting aspect of R&B lyrics is how <strong>word length</strong> and <strong>sentence length</strong> contribute to the conversational tone. R&B lyrics tend to use shorter, simpler words and sentences, which adds to the feeling that the artist is speaking directly to us. Here's a comparison between R&B and Metal on these two metrics:</p>
+
+<div class="centered">
+    <img src="fig6_part2.png" alt="Word and Sentence Length Comparison: R&B vs Metal">
+</div>
+
+<p>As seen in the boxplots, R&B lyrics use shorter words and sentences, making the language more accessible and easy to relate to. This simplicity doesn’t take away from the emotional depth of the lyrics—in fact, it enhances it by making the message more direct and easy to understand.</p>
+
+<p>All of these factors—pronoun usage, word length, and sentence structure—work together to make R&B lyrics feel like a conversation. Whether it’s a romantic confession or an emotional outpouring, the directness and simplicity of R&B's language invite us to connect with the song on a personal level.</p>
+
+</body>
+</html>
